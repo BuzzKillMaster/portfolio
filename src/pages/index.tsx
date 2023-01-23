@@ -254,7 +254,7 @@ function CertificatesListOverlay(props: {
                 <header className={"mb-16 lg:mb-24 lg:text-center"}>
                     <h2 className={"text-3xl font-bold mb-6"}>Courses Archive</h2>
                     <p className={"text-sm uppercase font-semibold text-emerald-400"}>The unnecessarily long list of
-                        courses I've completed</p>
+                        courses I&apos;ve completed</p>
                 </header>
 
                 <table className={"table-auto w-full"}>

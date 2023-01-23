@@ -41,18 +41,18 @@ export default function AboutSection() {
 
             <div className={"grid lg:grid-cols-2 gap-20"}>
                 <article>
-                    <p className={"mb-8"}>It depends a lot on who you ask! If you ask me, I'm a designer, developer and straight up nerd that loves a challenge and tends to see opportunity where others see "too much work".</p>
+                    <p className={"mb-8"}>It depends a lot on who you ask! If you ask me, I&apos;m a designer, developer and straight up nerd that loves a challenge and tends to see opportunity where others see &quot;too much work&quot;.</p>
 
-                    <p className={"mb-8"}>However, if you ask my friends and family, they'll most likely provide you with one of the following answers:</p>
+                    <p className={"mb-8"}>However, if you ask my friends and family, they&apos;ll most likely provide you with one of the following answers:</p>
 
                     <ul className={"mb-8 ml-4 lg:ml-6"}>
-                        <li className={"mb-4"}><span className={"text-emerald-400 mr-2"}>a.</span> <i>"He does something with computers."</i></li>
-                        <li><span className={"text-emerald-400 mr-2"}>b.</span> <i>"He is some kind of tech wizard."</i></li>
+                        <li className={"mb-4"}><span className={"text-emerald-400 mr-2"}>a.</span> <i>&quot;He does something with computers.&quot;</i></li>
+                        <li><span className={"text-emerald-400 mr-2"}>b.</span> <i>&quot;He is some kind of tech wizard.&quot;</i></li>
                     </ul>
 
-                    <p className={"mb-8"}>I'm capable of designing and developing applications for web and mobile, as well as structuring and building out both back-end systems and databases.</p>
+                    <p className={"mb-8"}>I&apos;m capable of designing and developing applications for web and mobile, as well as structuring and building out both back-end systems and databases.</p>
 
-                    <p className={"mb-8"}>Furthermore, I know how to do social media marketing, marketing analytics and data visualization, and I'm always looking to expand my domain of knowledge.</p>
+                    <p className={"mb-8"}>Furthermore, I know how to do social media marketing, marketing analytics and data visualization, and I&apos;m always looking to expand my domain of knowledge.</p>
 
                     <p className={"mb-8"}>Some of my favourite tools and technologies include:</p>
 
