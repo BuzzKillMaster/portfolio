@@ -1,5 +1,5 @@
 import SectionHeading from "@/components/SectionHeading";
-import {AnimatePresence, AnimateSharedLayout, motion} from "framer-motion";
+import {AnimatePresence, motion} from "framer-motion";
 import React, {useState} from "react";
 
 enum Certificate {
