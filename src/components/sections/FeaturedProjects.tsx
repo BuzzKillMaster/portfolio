@@ -14,7 +14,7 @@ export default function FeaturedProjectsSection() {
 
             <FeaturedProject title={"URL Shortener"}
                              description={"Quickly and easily shorten long URLs to a size that is not only more readable, but also looks significicantly more professional. I created this using the Shrtcode API, along with Next.JS, TailwindCSS, Framer Motion and the Local Storage Web API for a simple implementation of persistence."}
-                             technologies={["Shrtcode API", "Next.JS", "TailwindCSS", "Framer Motion", "Local Storage"]} reverse={false} image={"/url_shortener.png"}/>
+                             technologies={["Shrtcode API", "Next.JS", "TailwindCSS", "Framer Motion", "Local Storage"]} reverse={false} image={"/url_shortener.png"} target={"https://url-shortener.buzzkill.app"}/>
         </motion.section>
     )
 }

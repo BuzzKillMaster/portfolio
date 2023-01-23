@@ -4,7 +4,8 @@ type Project = {
     title: string,
     description: string,
     technologies: string[],
-    icon: ReactNode
+    icon: ReactNode,
+    target: string
 }
 
 export default Project
