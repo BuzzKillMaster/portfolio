@@ -14,13 +14,13 @@ export default function FeaturedProject(props: {
             <div
                 className={"mb-8 lg:mb-0 col-span-5 lg:col-span-3 lg:row-span-full self-center z-10 pointer-events-none flex flex-col" + (props.reverse ? " lg:col-end-6 justify-end" : " lg:col-start-1")}>
                 <p className={"w-max text-emerald-400 text-xs uppercase font-semibold pointer-events-auto" + (props.reverse ? " lg:self-end" : "")}>Featured Project</p>
-                <a href={props.target} target={"_blank"} rel={"noreferrer"}><h3 className={"w-max font-bold text-2xl mt-2 pointer-events-auto hover:text-emerald-400" + (props.reverse ? " lg:self-end" : "")}>{props.title}</h3></a>
+                <h3 className={"w-max font-bold text-2xl mt-2 pointer-events-auto hover:text-emerald-400" + (props.reverse ? " lg:self-end" : "")}><a href={props.target} target={"_blank"} rel={"noreferrer"}>{props.title}</a></h3>
 
                 <div className={"bg-slate-800 p-6 rounded shadow my-6 pointer-events-auto"}>
                     <p>{props.description}</p>
                 </div>
 
-                <ul className={"w-max max-w-[60%] text-sm font-semibold flex flex-wrap gap-4 opacity-75 pointer-events-auto" + (props.reverse ? " lg:self-end" : "")}>
+                <ul className={"w-max max-w-[60%] text-sm font-semibold flex flex-wrap gap-4 opacity-75 pointer-events-auto" + (props.reverse ? " lg:self-end lg:justify-end" : "")}>
                     {props.technologies.map(item => (
                         <li key={item}>{item}</li>
                     ))}
