@@ -250,7 +250,7 @@ function CertificatesListOverlay(props: {
 
             <p onClick={props.hideCertificatesOverlay} className={"text-sm uppercase font-semibold absolute top-12 right-12 cursor-pointer hover:text-emerald-400 z-50"}>Close</p>
 
-            <section className={"max-w-6xl mx-auto relative z-10 h-full"}>
+            <section className={"max-w-6xl mx-auto relative z-10 min-h-full"}>
                 <header className={"mb-16 lg:mb-24 lg:text-center"}>
                     <h2 className={"text-3xl font-bold mb-6"}>Courses Archive</h2>
                     <p className={"text-sm uppercase font-semibold text-emerald-400"}>The unnecessarily long list of
@@ -284,7 +284,7 @@ function CertificatesListOverlay(props: {
                 </table>
 
                 <p onClick={props.hideCertificatesOverlay}
-                   className={"py-4 px-6 border-2 w-max mx-auto my-24 rounded font-semibold cursor-pointer border-emerald-400 text-emerald-400 hover:bg-emerald-400 hover:text-slate-900"}>Go back to the awesome portfolio</p>
+                   className={"py-4 px-6 border-2 w-max mx-auto mt-24 rounded font-semibold cursor-pointer border-emerald-400 text-emerald-400 hover:bg-emerald-400 hover:text-slate-900"}>Go back to the awesome portfolio</p>
             </section>
         </motion.div>
     )
