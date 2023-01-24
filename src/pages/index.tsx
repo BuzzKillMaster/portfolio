@@ -49,7 +49,7 @@ export default function Home() {
             <LeftHandSideBonusInformation/>
             <RightHandSideBonusInformation/>
 
-            <div className={"custom-background fixed h-screen w-screen opacity-25"}></div>
+            <div className={"custom-background fixed h-screen w-screen opacity-50"}></div>
 
             <Header/>
 
@@ -246,7 +246,7 @@ function CertificatesListOverlay(props: {
         <motion.div initial={{top: "100%"}} animate={{top: 0}} exit={{top: "100%"}} transition={{type: "tween"}}
                     className={"bg-slate-900 fixed w-screen h-screen overflow-y-scroll overscroll-contain z-50"}>
 
-            <div className={"h-screen w-full fixed pointer-events-none custom-background bg-red-500 opacity-25"}></div>
+            <div className={"h-screen w-full fixed pointer-events-none custom-background bg-red-500 opacity-50"}></div>
 
             <p onClick={props.hideCertificatesOverlay} className={"text-sm uppercase font-semibold absolute top-12 right-12 cursor-pointer hover:text-emerald-400 z-50"}>Close</p>
 

@@ -15,7 +15,7 @@ export default function Header() {
             <motion.p whileHover={{ scale: 1.05 }} onClick={() => scrollIntoView("landing")} className={"uppercase text-lg font-semibold tracking-widest cursor-pointer origin-left z-50"}>Christian<span className={"text-emerald-400"}>Pedersen</span></motion.p>
 
             <div className={"h-full w-full absolute inset-0 overflow-hidden"}>
-                <div className={"h-screen w-full absolute inset-0 custom-background opacity-25 pointer-events-none"}></div>
+                <div className={"h-screen w-full absolute inset-0 custom-background opacity-50 pointer-events-none"}></div>
             </div>
 
             <BsList onClick={() => setShowMenu(!showMenu)} className={"text-3xl lg:hidden cursor-pointer hover:text-emerald-400 z-10"}/>
@@ -39,7 +39,7 @@ export default function Header() {
                         animate={{ width: "max-content" }}
                         exit={{ width: 0 }}
                         className={"absolute shadow max-w-full z-50 top-0 right-0 bg-slate-900 h-screen"}>
-                        <div className={"h-full w-full absolute inset-0 custom-background opacity-25"}></div>
+                        <div className={"h-full w-full absolute inset-0 custom-background opacity-50"}></div>
                         <ul className={"w-96 max-w-full px-8 py-12 flex flex-col items-start relative z-10"}>
                             <li className={"text-2xl w-full flex justify-end"}>
                                 <BsArrowRight onClick={() => setShowMenu(!showMenu)} className={"cursor-pointer hover:text-emerald-400"}/>
