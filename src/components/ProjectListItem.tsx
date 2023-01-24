@@ -16,10 +16,10 @@ export default function ProjectListItem(props: {
 
                 <h4 className={"font-bold text-xl"}>{props.project.title}</h4>
 
-                <p className={"text-gray-50 my-6"}>{props.project.description}</p>
+                <p className={"my-6"}>{props.project.description}</p>
             </div>
 
-            <ul className={"text-sm text-gray-50 font-semibold flex flex-wrap gap-4 opacity-75"}>
+            <ul className={"text-sm font-semibold flex flex-wrap gap-4 opacity-75"}>
                 {props.project.technologies.map(item => (
                     <li key={item}>{item}</li>
                 ))}

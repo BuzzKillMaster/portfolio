@@ -20,7 +20,7 @@ export default function FeaturedProject(props: {
                     <p>{props.description}</p>
                 </div>
 
-                <ul className={"w-max max-w-[60%] text-sm text-gray-50 font-semibold flex flex-wrap gap-4 opacity-75 pointer-events-auto" + (props.reverse ? " lg:self-end" : "")}>
+                <ul className={"w-max max-w-[60%] text-sm font-semibold flex flex-wrap gap-4 opacity-75 pointer-events-auto" + (props.reverse ? " lg:self-end" : "")}>
                     {props.technologies.map(item => (
                         <li key={item}>{item}</li>
                     ))}

@@ -26,7 +26,7 @@ export default function Home() {
     const [showCertificatesOverlay, setShowCertificatesOverlay] = useState(false)
 
     return (
-        <div className={lexend.className + " bg-slate-900 text-gray-200 min-h-screen min-w-screen"}>
+        <div className={lexend.className + " bg-slate-900 text-gray-50 min-h-screen min-w-screen"}>
             <Head>
                 <title>Christian Pedersen | Multimedia Designer Extraordinaire</title>
                 <meta name="description"
