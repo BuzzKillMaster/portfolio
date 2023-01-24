@@ -262,7 +262,7 @@ function CertificatesListOverlay(props: {
                     <tr>
                         <th className={"p-4"}>Year</th>
                         <th className={"p-4"}>Title</th>
-                        <th className={"p-4"}>Organization</th>
+                        <th className={"p-4 hidden lg:table-cell"}>Organization</th>
                         <th className={"p-4 hidden lg:table-cell"}>Completion</th>
                         <th className={"p-4 text-right hidden lg:table-cell"}>Credential</th>
                     </tr>
