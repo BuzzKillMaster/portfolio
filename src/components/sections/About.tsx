@@ -10,7 +10,7 @@ const technologies = {
     "Framer Motion": "https://www.framer.com/motion/",
     "Django": "https://www.djangoproject.com/",
     "Heroku": "https://www.heroku.com/",
-    "React Native": "https://reactnative.dev/",
+    "Expo": "https://expo.dev/",
     "PostgreSQL": "https://www.postgresql.org/",
 }
 
