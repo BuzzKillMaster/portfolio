@@ -275,7 +275,7 @@ function CertificatesListOverlay(props: {
                                    className={"cursor-pointer group hover:bg-slate-800"}>
                             <td className={"p-4 text-emerald-400"}>{certificate.date.getFullYear()}</td>
                             <td className={"p-4 group-hover:text-emerald-400"}>{certificate.title}</td>
-                            <td className={"p-4"}>{certificate.organization}</td>
+                            <td className={"p-4 hidden lg:table-cell"}>{certificate.organization}</td>
                             <td className={"p-4 hidden lg:table-cell"}>{certificate.date.toLocaleDateString()}</td>
                             <td className={"p-4 justify-end text-2xl text-emerald-400 hidden lg:flex"}><BsLink45Deg/></td>
                         </motion.tr>
