@@ -232,6 +232,12 @@ const certificatesList: CertificateProof[] = [
         date: new Date("2022-09-14"),
         credential: "https://www.coursera.org/account/accomplishments/certificate/J8W8N9YFMHPY",
     },
+    {
+        title: "Measure and Optimize Social Media Marketing Campaigns",
+        organization: "Meta",
+        date: new Date("2023-02-07"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/MSPQCMCJCUGP",
+    },
 ].sort((a, b) => b.date.getTime() - a.date.getTime())
 
 function CertificatesListOverlay(props: {
