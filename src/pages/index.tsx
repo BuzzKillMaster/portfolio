@@ -238,6 +238,36 @@ const certificatesList: CertificateProof[] = [
         date: new Date("2023-02-07"),
         credential: "https://www.coursera.org/account/accomplishments/certificate/MSPQCMCJCUGP",
     },
+    {
+        title: "Marketing Analytics with Meta",
+        organization: "Meta",
+        date: new Date("2023-02-11"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/YS96KCPB6WB9",
+    },
+    {
+        title: "Django Web Framework",
+        organization: "Meta",
+        date: new Date("2023-02-12"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/QQ6D5CBD82BU",
+    },
+    {
+        title: "Advanced React",
+        organization: "Meta",
+        date: new Date("2023-02-14"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/C3UNST8MNHWF",
+    },
+    {
+        title: "Advanced Programming in Swift",
+        organization: "Meta",
+        date: new Date("2023-02-18"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/JNNLTBN7K6WU",
+    },
+    {
+        title: "Advanced Programming in Kotlin",
+        organization: "Meta",
+        date: new Date("2023-02-20"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/7YVEHWQJXKBX",
+    },
 ].sort((a, b) => b.date.getTime() - a.date.getTime())
 
 function CertificatesListOverlay(props: {
