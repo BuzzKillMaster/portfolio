@@ -8,10 +8,10 @@ const technologies = {
     "TypeScript": "https://www.typescriptlang.org/",
     "TailwindCSS": "https://tailwindcss.com/",
     "Framer Motion": "https://www.framer.com/motion/",
+    "Figma": "https://www.figma.com/",
+    "MySQL": "https://www.mysql.com/",
     "Django": "https://www.djangoproject.com/",
-    "Heroku": "https://www.heroku.com/",
-    "Expo": "https://expo.dev/",
-    "PostgreSQL": "https://www.postgresql.org/",
+    "FastAPI": "https://fastapi.tiangolo.com/",
 }
 
 const profileImageVariants = {
