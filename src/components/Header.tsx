@@ -3,6 +3,14 @@ import {BsArrowRight, BsList} from "react-icons/bs";
 import React, {useState} from "react";
 import scrollToView from "@/utilities/scrollToView";
 
+const sectionNames = [
+    "Home",
+    "About",
+    "Certifications",
+    "Projects",
+    "Contact",
+]
+
 export default function Header() {
     const [showMenu, setShowMenu] = useState(false)
 
@@ -20,11 +28,9 @@ export default function Header() {
 
             <nav className={"hidden lg:block z-50"}>
                 <ul className={"flex items-center gap-8"}>
-                    <li onClick={() => navigateTo("landing")} className={"cursor-pointer hover:text-emerald-400"}>Home</li>
-                    <li onClick={() => navigateTo("about")} className={"cursor-pointer hover:text-emerald-400"}>About</li>
-                    <li onClick={() => navigateTo("certifications")} className={"cursor-pointer hover:text-emerald-400"}>Certifications</li>
-                    <li onClick={() => navigateTo("projects")} className={"cursor-pointer hover:text-emerald-400"}>Projects</li>
-                    <li onClick={() => navigateTo("contact")} className={"cursor-pointer hover:text-emerald-400"}>Contact</li>
+                    {sectionNames.map(value => (
+                        <li key={value} onClick={() => navigateTo(value.toLowerCase())} className={"cursor-pointer hover:text-emerald-400"}>{value}</li>
+                    ))}
 
                     <li onClick={() => alert("Coming Soon")} className={"px-4 py-2 border-2 rounded cursor-pointer border-emerald-400 text-emerald-400 hover:bg-emerald-400 hover:text-slate-900"}>Resume</li>
                 </ul>
@@ -43,11 +49,9 @@ export default function Header() {
                                 <BsArrowRight onClick={() => setShowMenu(!showMenu)} className={"cursor-pointer hover:text-emerald-400"}/>
                             </li>
 
-                            <MobileMenuLink text={"Home"} target={"landing"} handleClick={navigateTo}/>
-                            <MobileMenuLink text={"About"} target={"about"} handleClick={navigateTo}/>
-                            <MobileMenuLink text={"Certifications"} target={"certifications"} handleClick={navigateTo}/>
-                            <MobileMenuLink text={"Projects"} target={"projects"} handleClick={navigateTo}/>
-                            <MobileMenuLink text={"Contact"} target={"contact"} handleClick={navigateTo}/>
+                            {sectionNames.map(value => (
+                                <MobileMenuLink key={value} text={value} target={value.toLowerCase()} handleClick={navigateTo}/>
+                            ))}
 
                             <li onClick={() => alert("Coming Soon")} className={"mt-4 px-4 py-2 border-2 rounded cursor-pointer border-emerald-400 text-emerald-400 hover:bg-emerald-400 hover:text-slate-900"}>Resume</li>
                         </ul>

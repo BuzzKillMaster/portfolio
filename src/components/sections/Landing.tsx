@@ -3,7 +3,7 @@ import scrollToView from "@/utilities/scrollToView";
 
 export default function LandingSection() {
     return (
-        <section id={"landing"} className={"min-h-screen flex flex-col justify-center items-start"}>
+        <section id={"home"} className={"min-h-screen flex flex-col justify-center items-start"}>
             <p className={"font-semibold text-emerald-400"}>Hello, my name is</p>
             <h1 className={"text-6xl font-bold my-6"}>Christian Pedersen.</h1>
             <h2 className={"text-4xl font-bold"}>I create websites and mobile applications.</h2>
