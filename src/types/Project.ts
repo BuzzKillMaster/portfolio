@@ -1,10 +1,10 @@
-import {ReactNode} from "react";
+import {IconType} from "react-icons";
 
 type Project = {
     title: string,
     description: string,
     technologies: string[],
-    icon: ReactNode,
+    icon: IconType,
     target: string
 }
 

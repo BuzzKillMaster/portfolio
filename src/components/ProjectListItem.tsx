@@ -1,6 +1,5 @@
-import React, {ReactNode} from "react";
+import React from "react";
 import {motion} from "framer-motion";
-import {BsFolder2} from "react-icons/bs";
 import Project from "@/types/Project";
 
 export default function ProjectListItem(props: {
@@ -11,7 +10,7 @@ export default function ProjectListItem(props: {
                   className={"bg-slate-800 px-6 py-8 rounded shadow flex flex-col justify-between cursor-pointer hover:text-emerald-400"}>
             <div>
                 <div className={"text-5xl text-emerald-400 opacity-75 mb-8"}>
-                    {props.project.icon !== undefined ? props.project.icon : <BsFolder2/>}
+                    {props.project.icon({}) }
                 </div>
 
                 <h4 className={"font-bold text-xl"}>{props.project.title}</h4>
