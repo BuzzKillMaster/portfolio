@@ -1,5 +1,5 @@
 import {motion} from "framer-motion";
-import certificatesList from "@/data/CertificatesList";
+import certificatesList from "@/data/certificatesList";
 import {BsLink45Deg} from "react-icons/bs";
 import React from "react";
 

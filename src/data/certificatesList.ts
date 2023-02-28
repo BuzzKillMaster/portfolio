@@ -1,6 +1,6 @@
-import Certificate from "@/types/Certificate";
+import CourseCertificate from "@/types/CourseCertificate";
 
-const certificatesList: Certificate[] = [
+const certificatesList: CourseCertificate[] = [
     {
         title: "Create the User Interface with SwiftUI",
         organization: "Meta",

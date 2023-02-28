@@ -1,8 +1,8 @@
-type Certificate = {
+type CourseCertificate = {
     title: string
     organization: string
     date: Date
     credential: string
 }
 
-export default Certificate
+export default CourseCertificate
