@@ -1,11 +1,7 @@
 import React from "react";
+import scrollToView from "@/utilities/scrollToView";
 
 export default function LandingSection() {
-    const scrollIntoView = (target: string) => {
-        const element = document.getElementById(target)
-        if (element !== null) element.scrollIntoView({behavior: "smooth" })
-    }
-
     return (
         <section id={"landing"} className={"min-h-screen flex flex-col justify-center items-start"}>
             <p className={"font-semibold text-emerald-400"}>Hello, my name is</p>
@@ -16,7 +12,7 @@ export default function LandingSection() {
                 absurdity. In a world of highly skilled individuals, I stand out based on my extroverted and
                 fun-loving personality -&nbsp;as well as my capabilities.</p>
 
-            <p onClick={() => scrollIntoView("about")}
+            <p onClick={() => scrollToView("about")}
                className={"py-4 px-6 border-2 rounded font-semibold cursor-pointer border-emerald-400 text-emerald-400 hover:bg-emerald-400 hover:text-slate-900"}>Get
                 to know me!</p>
         </section>

@@ -1,18 +1,16 @@
 import {AnimatePresence, motion} from "framer-motion";
 import {BsArrowRight, BsList} from "react-icons/bs";
 import React, {useState} from "react";
+import scrollToView from "@/utilities/scrollToView";
 
 export default function Header() {
     const [showMenu, setShowMenu] = useState(false)
-    const scrollIntoView = (target: string) => {
-        const element = document.getElementById(target)
-        if (element !== null) element.scrollIntoView({behavior: "smooth" })
-        if (showMenu) setShowMenu(!showMenu)
-    }
+
+    const navigateTo = (target: string) => scrollToView(target, () => setShowMenu(false))
 
     return (
         <header className={"shadow p-8 bg-slate-900 w-full fixed top-0 flex items-center justify-between z-20"}>
-            <motion.p whileHover={{ scale: 1.05 }} onClick={() => scrollIntoView("landing")} className={"uppercase text-lg font-semibold tracking-widest cursor-pointer origin-left z-50"}>Christian<span className={"text-emerald-400"}>Pedersen</span></motion.p>
+            <motion.p whileHover={{ scale: 1.05 }} onClick={() => navigateTo("landing")} className={"uppercase text-lg font-semibold tracking-widest cursor-pointer origin-left z-50"}>Christian<span className={"text-emerald-400"}>Pedersen</span></motion.p>
 
             <div className={"h-full w-full absolute inset-0 overflow-hidden"}>
                 <div className={"h-screen w-full absolute inset-0 custom-background opacity-50 pointer-events-none"}></div>
@@ -22,11 +20,11 @@ export default function Header() {
 
             <nav className={"hidden lg:block z-50"}>
                 <ul className={"flex items-center gap-8"}>
-                    <li onClick={() => scrollIntoView("landing")} className={"cursor-pointer hover:text-emerald-400"}>Home</li>
-                    <li onClick={() => scrollIntoView("about")} className={"cursor-pointer hover:text-emerald-400"}>About</li>
-                    <li onClick={() => scrollIntoView("certifications")} className={"cursor-pointer hover:text-emerald-400"}>Certifications</li>
-                    <li onClick={() => scrollIntoView("projects")} className={"cursor-pointer hover:text-emerald-400"}>Projects</li>
-                    <li onClick={() => scrollIntoView("contact")} className={"cursor-pointer hover:text-emerald-400"}>Contact</li>
+                    <li onClick={() => navigateTo("landing")} className={"cursor-pointer hover:text-emerald-400"}>Home</li>
+                    <li onClick={() => navigateTo("about")} className={"cursor-pointer hover:text-emerald-400"}>About</li>
+                    <li onClick={() => navigateTo("certifications")} className={"cursor-pointer hover:text-emerald-400"}>Certifications</li>
+                    <li onClick={() => navigateTo("projects")} className={"cursor-pointer hover:text-emerald-400"}>Projects</li>
+                    <li onClick={() => navigateTo("contact")} className={"cursor-pointer hover:text-emerald-400"}>Contact</li>
 
                     <li onClick={() => alert("Coming Soon")} className={"px-4 py-2 border-2 rounded cursor-pointer border-emerald-400 text-emerald-400 hover:bg-emerald-400 hover:text-slate-900"}>Resume</li>
                 </ul>
@@ -45,11 +43,11 @@ export default function Header() {
                                 <BsArrowRight onClick={() => setShowMenu(!showMenu)} className={"cursor-pointer hover:text-emerald-400"}/>
                             </li>
 
-                            <MobileMenuLink text={"Home"} target={"landing"} handleClick={scrollIntoView}/>
-                            <MobileMenuLink text={"About"} target={"about"} handleClick={scrollIntoView}/>
-                            <MobileMenuLink text={"Certifications"} target={"certifications"} handleClick={scrollIntoView}/>
-                            <MobileMenuLink text={"Projects"} target={"projects"} handleClick={scrollIntoView}/>
-                            <MobileMenuLink text={"Contact"} target={"contact"} handleClick={scrollIntoView}/>
+                            <MobileMenuLink text={"Home"} target={"landing"} handleClick={navigateTo}/>
+                            <MobileMenuLink text={"About"} target={"about"} handleClick={navigateTo}/>
+                            <MobileMenuLink text={"Certifications"} target={"certifications"} handleClick={navigateTo}/>
+                            <MobileMenuLink text={"Projects"} target={"projects"} handleClick={navigateTo}/>
+                            <MobileMenuLink text={"Contact"} target={"contact"} handleClick={navigateTo}/>
 
                             <li onClick={() => alert("Coming Soon")} className={"mt-4 px-4 py-2 border-2 rounded cursor-pointer border-emerald-400 text-emerald-400 hover:bg-emerald-400 hover:text-slate-900"}>Resume</li>
                         </ul>
