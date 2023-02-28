@@ -19,7 +19,7 @@ export default function Header() {
 
     return (
         <header className={"shadow p-8 bg-slate-900 w-full fixed top-0 flex items-center justify-between z-20"}>
-            <motion.p whileHover={{ scale: 1.05 }} onClick={() => navigateTo("landing")} className={"uppercase text-lg font-semibold tracking-widest cursor-pointer origin-left z-50"}>Christian<span className={"text-emerald-400"}>Pedersen</span></motion.p>
+            <motion.p whileHover={{ scale: 1.05 }} onClick={() => navigateTo("home")} className={"uppercase text-lg font-semibold tracking-widest cursor-pointer origin-left z-50"}>Christian<span className={"text-emerald-400"}>Pedersen</span></motion.p>
 
             <div className={"h-full w-full absolute inset-0 overflow-hidden"}>
                 <div className={"h-screen w-full absolute inset-0 custom-background opacity-50 pointer-events-none"}></div>
