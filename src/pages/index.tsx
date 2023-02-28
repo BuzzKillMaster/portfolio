@@ -1,5 +1,3 @@
-import Head from 'next/head'
-
 import React, {useState} from "react";
 import {Lexend} from '@next/font/google'
 import {
@@ -17,7 +15,6 @@ import LandingSection from "@/components/sections/Landing";
 import AboutSection from "@/components/sections/About";
 
 import {AnimatePresence, LayoutGroup, motion} from "framer-motion";
-import Certificate from "@/types/Certificate";
 import certificatesList from "@/data/CertificatesList";
 
 const lexend = Lexend({
@@ -29,14 +26,6 @@ export default function Home() {
 
     return (
         <div className={lexend.className + " bg-slate-900 text-gray-50 min-h-screen min-w-screen"}>
-            <Head>
-                <title>Christian Pedersen | Multimedia Designer Extraordinaire</title>
-                <meta name="description"
-                      content="Christian is a multi media designer with several related certifications, including cross-platform app development, data analysis and social media marketing."/>
-                <meta name="viewport" content="width=device-width, initial-scale=1"/>
-                <link rel="icon" href="/favicon.ico"/>
-            </Head>
-
             <AnimatePresence>
                 {showCertificatesOverlay && <CertificatesListOverlay
                     hideCertificatesOverlay={() => setShowCertificatesOverlay(!showCertificatesOverlay)}/>}
