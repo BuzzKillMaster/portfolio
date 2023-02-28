@@ -6,10 +6,7 @@ import React from "react";
 export default function CertificatesListOverlay(props: {
     hideCertificatesOverlay: () => void
 }) {
-    const openCertificate = (target: string) => {
-        // @ts-ignore
-        if (window !== null) window.open(target, '_blank').focus()
-    }
+    const openCertificate = (target: string) => window.open(target, "_blank")
 
     return (
         <motion.div initial={{top: "100%"}} animate={{top: 0}} exit={{top: "100%"}} transition={{type: "tween"}}
