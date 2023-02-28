@@ -16,9 +16,7 @@ export default function QualificationsSection() {
                 <div className={"shrink-0 mb-12 lg:mb-0 lg:mr-20"}>
                     <ul className={"flex lg:block overflow-x-auto overflow-y-hidden lg:overflow-visible"}>
                         {Object.entries(professionalCertificates).map(([key, value]) => (
-                            // @ts-ignore
-                            // TODO: Erh... fix the ignored issue to make sure nothing breaks.
-                            <CertificateListItem key={key} clickHandler={() => setSelectedCertificate(key)} text={value.category} active={key === selectedCertificate.toString()}/>
+                            <CertificateListItem key={key} clickHandler={() => setSelectedCertificate(key as unknown as ProfessionalCertificates)} text={value.category} active={key === selectedCertificate.toString()}/>
                         ))}
                     </ul>
                 </div>
