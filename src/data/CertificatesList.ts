@@ -1,0 +1,198 @@
+import Certificate from "@/types/Certificate";
+
+const certificatesList: Certificate[] = [
+    {
+        title: "Create the User Interface with SwiftUI",
+        organization: "Meta",
+        date: new Date("2023-01-17"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/KPZSKYVA43E4",
+    },
+    {
+        title: "Advanced MySQL Topics",
+        organization: "Meta",
+        date: new Date("2022-12-22"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/5JWT9DXFKSMV",
+    },
+    {
+        title: "Introduction to Front-End Development",
+        organization: "Meta",
+        date: new Date("2022-09-21"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/JVKKARBTKE7F",
+    },
+    {
+        title: "Principles of UX/UI Design",
+        organization: "Meta",
+        date: new Date("2023-01-07"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/BLN57ZVRZLW9",
+    },
+    {
+        title: "Advertising with Meta",
+        organization: "Meta",
+        date: new Date("2023-01-02"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/E7NG69ZB3Q35",
+    },
+    {
+        title: "Data Analytics Methods for Marketing",
+        organization: "Meta",
+        date: new Date("2022-12-27"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/NK8N67R98ULC",
+    },
+    {
+        title: "Create the User Interface in Android Studio",
+        organization: "Meta",
+        date: new Date("2023-01-17"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/9JSC6KRFVHYH",
+    },
+    {
+        title: "React Basics",
+        organization: "Meta",
+        date: new Date("2023-01-10"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/SSPPB76QMGGN",
+    },
+    {
+        title: "HTML and CSS in depth",
+        organization: "Meta",
+        date: new Date("2022-12-23"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/A34RD9KSTTFU",
+    },
+    {
+        title: "Fundamentals of Social Media Advertising",
+        organization: "Meta",
+        date: new Date("2022-12-18"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/A48952LX2SLL",
+    },
+    {
+        title: "Version Control",
+        organization: "Meta",
+        date: new Date("2022-10-10"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/74STP3VUBYBG",
+    },
+    {
+        title: "Introduction to Social Media Marketing",
+        organization: "Meta",
+        date: new Date("2022-10-01"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/49LEMHG7NQZY",
+    },
+    {
+        title: "Introduction to Data Analytics",
+        organization: "Meta",
+        date: new Date("2022-11-06"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/GRCBAE9HT6G2",
+    },
+    {
+        title: "Introduction to Databases",
+        organization: "Meta",
+        date: new Date("2022-09-30"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/22KCMAYU7CMY",
+    },
+    {
+        title: "Social Media Management ",
+        organization: "Meta",
+        date: new Date("2022-11-05"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/NHZ3G3DBJVSA",
+    },
+    {
+        title: "Programming with JavaScript",
+        organization: "Meta",
+        date: new Date("2022-10-26"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/9NJAWMPDZ8XD",
+    },
+    {
+        title: "Programming in Python",
+        organization: "Meta",
+        date: new Date("2022-10-27"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/589ARCM8SDVK",
+    },
+    {
+        title: "Programming Fundamentals in Swift",
+        organization: "Meta",
+        date: new Date("2022-12-11"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/M47ZN6XJEQPS",
+    },
+    {
+        title: "Statistics for Marketing",
+        organization: "Meta",
+        date: new Date("2022-11-08"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/QQUJVTVTBJJT",
+    },
+    {
+        title: "Database Structures and Management with MySQL",
+        organization: "Meta",
+        date: new Date("2022-11-26"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/5AJGYXDLEN3A",
+    },
+    {
+        title: "Introduction to Databases for Back-End Development",
+        organization: "Meta",
+        date: new Date("2022-11-28"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/NUF3U8P2PT52",
+    },
+    {
+        title: "Programming Fundamentals in Kotlin",
+        organization: "Meta",
+        date: new Date("2022-11-07"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/FM3JBUFDG4MH",
+    },
+    {
+        title: "Introduction to Android Mobile Application Development",
+        organization: "Meta",
+        date: new Date("2022-09-13"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/XET3W7GPRZA2",
+    },
+    {
+        title: "Marketing Analytics Foundation",
+        organization: "Meta",
+        date: new Date("2022-09-25"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/G3CS54SFH3VG",
+    },
+    {
+        title: "Introduction to Back-End Development",
+        organization: "Meta",
+        date: new Date("2022-09-21"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/ZGG2YNK9DWBW",
+    },
+    {
+        title: "Introduction to iOS Mobile Application Development",
+        organization: "Meta",
+        date: new Date("2022-09-14"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/J8W8N9YFMHPY",
+    },
+    {
+        title: "Measure and Optimize Social Media Marketing Campaigns",
+        organization: "Meta",
+        date: new Date("2023-02-07"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/MSPQCMCJCUGP",
+    },
+    {
+        title: "Marketing Analytics with Meta",
+        organization: "Meta",
+        date: new Date("2023-02-11"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/YS96KCPB6WB9",
+    },
+    {
+        title: "Django Web Framework",
+        organization: "Meta",
+        date: new Date("2023-02-12"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/QQ6D5CBD82BU",
+    },
+    {
+        title: "Advanced React",
+        organization: "Meta",
+        date: new Date("2023-02-14"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/C3UNST8MNHWF",
+    },
+    {
+        title: "Advanced Programming in Swift",
+        organization: "Meta",
+        date: new Date("2023-02-18"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/JNNLTBN7K6WU",
+    },
+    {
+        title: "Advanced Programming in Kotlin",
+        organization: "Meta",
+        date: new Date("2023-02-20"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/7YVEHWQJXKBX",
+    },
+].sort((a, b) => b.date.getTime() - a.date.getTime())
+
+export default certificatesList
