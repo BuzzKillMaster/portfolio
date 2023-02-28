@@ -1,4 +1,3 @@
-import SectionHeading from "@/components/SectionHeading";
 import React from "react";
 import {motion} from "framer-motion";
 
