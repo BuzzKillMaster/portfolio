@@ -33,12 +33,6 @@ export default function Home() {
                       content="Christian is a multi media designer with several related certifications, including cross-platform app development, data analysis and social media marketing."/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <link rel="icon" href="/favicon.ico"/>
-
-                <style>
-                    {
-                        ":root { --lexend: " + lexend.style.fontFamily + "; }"
-                    }
-                </style>
             </Head>
 
             <AnimatePresence>
