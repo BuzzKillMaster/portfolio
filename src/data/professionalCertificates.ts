@@ -2,28 +2,6 @@ import ProfessionalCertificate from "@/types/ProfessionalCertificate";
 import ProfessionalCertificates from "@/enums/ProfessionalCertificates";
 
 const professionalCertificates: {[key: string]: ProfessionalCertificate} = {
-    [ProfessionalCertificates.Android]: {
-        title: "Meta Android Developer",
-        category: "Android Development",
-        timeline: "September 2022 - Present",
-        description: "Capable of developing native mobile applications for Android using Kotlin and Jetpack Compose, as well as cross-platform applications using React Native, I can quickly develop complex functionality and custom implementations, ensuring that I am never limited by the the work done by others.",
-        skills: [
-            "Programming in Kotlin along with best practices for design and fundamentals of creating user interfaces with Jetpack Compose.",
-            "Building native Android applications using Android Studio and managing the lifecycle of a mobile application.",
-            "Creating cross-platform mobile applications using React Native."
-        ]
-    },
-    [ProfessionalCertificates.iOS]: {
-        title: "Meta iOS Developer",
-        category: "iOS Development",
-        timeline: "September 2022 - Present",
-        description: "Native applications using Swift and Swift UI or cross-platform application using React Native, it doesn't matter as I can do both. My knowledge of the Swift programming language empowers me to create complex applications without having to worry about limitations imposed by existing frameworks.",
-        skills: [
-            "Programming fundamentals, how to create a user interface (UI) and best practices for designing the UI using Swift UI.",
-            "Creating applications for iOS systems and managing their lifecycles.",
-            "Publishing, deploying and maintaining iOS apps as well as cross-platform apps using React Native.",
-        ]
-    },
     [ProfessionalCertificates.Frontend]: {
         title: "Meta Front-End Developer",
         category: "Front-End Development",
@@ -57,6 +35,28 @@ const professionalCertificates: {[key: string]: ProfessionalCertificate} = {
             "Developing a working knowledge of advanced data modeling concepts.",
         ]
     },
+    [ProfessionalCertificates.Android]: {
+        title: "Meta Android Developer",
+        category: "Android Development",
+        timeline: "September 2022 - Present",
+        description: "Capable of developing native mobile applications for Android using Kotlin and Jetpack Compose, as well as cross-platform applications using React Native, I can quickly develop complex functionality and custom implementations, ensuring that I am never limited by the the work done by others.",
+        skills: [
+            "Programming in Kotlin along with best practices for design and fundamentals of creating user interfaces with Jetpack Compose.",
+            "Building native Android applications using Android Studio and managing the lifecycle of a mobile application.",
+            "Creating cross-platform mobile applications using React Native."
+        ]
+    },
+    [ProfessionalCertificates.iOS]: {
+        title: "Meta iOS Developer",
+        category: "iOS Development",
+        timeline: "September 2022 - Present",
+        description: "Native applications using Swift and Swift UI or cross-platform application using React Native, it doesn't matter as I can do both. My knowledge of the Swift programming language empowers me to create complex applications without having to worry about limitations imposed by existing frameworks.",
+        skills: [
+            "Programming fundamentals, how to create a user interface (UI) and best practices for designing the UI using Swift UI.",
+            "Creating applications for iOS systems and managing their lifecycles.",
+            "Publishing, deploying and maintaining iOS apps as well as cross-platform apps using React Native.",
+        ]
+    },
     [ProfessionalCertificates.Marketing]: {
         title: "Meta Social Media Marketing",
         category: "Social Media Marketing",
@@ -81,19 +81,19 @@ const professionalCertificates: {[key: string]: ProfessionalCertificate} = {
             "Using Meta Ads Manager to test ad effectiveness and evaluate the results.",
         ]
     },
-    [ProfessionalCertificates.Upcoming]: {
-        title: "Upcoming Certificates",
-        category: "Upcoming Certificates",
-        timeline: "Coming soon",
-        description: "It doesn't matter how much I know or how good I am, there will always be more to learn and I'll be right there to learn it all. My education is a lifelong project and something that I value quite highly. It is with that in mind that I maintain subscriptions to various online learning institutions and have new courses and certifications already lined up. The following are the certificates that I will be completing before the end of the year.",
-        skills: [
-            "IBM DevOps and Software Engineering Professional Certificate",
-            "IBM Cybersecurity Analyst Professional Certificate",
-            "IBM Machine Learning Professional Certificate",
-            "IBM AI Engineering Professional Certificate",
-            "IBM Applied AI Professional Certificate",
-        ]
-    },
+    // [ProfessionalCertificates.Upcoming]: {
+    //     title: "Upcoming Certificates",
+    //     category: "Upcoming Certificates",
+    //     timeline: "Coming soon",
+    //     description: "It doesn't matter how much I know or how good I am, there will always be more to learn and I'll be right there to learn it all. My education is a lifelong project and something that I value quite highly. It is with that in mind that I maintain subscriptions to various online learning institutions and have new courses and certifications already lined up. The following are the certificates that I will be completing before the end of the year.",
+    //     skills: [
+    //         "IBM DevOps and Software Engineering Professional Certificate",
+    //         "IBM Cybersecurity Analyst Professional Certificate",
+    //         "IBM Machine Learning Professional Certificate",
+    //         "IBM AI Engineering Professional Certificate",
+    //         "IBM Applied AI Professional Certificate",
+    //     ]
+    // },
 }
 
 export default professionalCertificates

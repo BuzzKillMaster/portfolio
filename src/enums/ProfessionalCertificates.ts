@@ -1,12 +1,12 @@
 enum ProfessionalCertificates {
-    Android,
-    iOS,
     Frontend,
     Backend,
     Database,
+    Android,
+    iOS,
     Marketing,
     Analytics,
-    Upcoming
+    // Upcoming
 }
 
 export default ProfessionalCertificates

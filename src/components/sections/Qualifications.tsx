@@ -7,7 +7,7 @@ import CertificateListItem from "@/components/CertificateListItem";
 import CertificateDescription from "@/components/CertificateDescription";
 
 export default function QualificationsSection() {
-    const [selectedCertificate, setSelectedCertificate] = useState(ProfessionalCertificates.Android)
+    const [selectedCertificate, setSelectedCertificate] = useState(ProfessionalCertificates.Frontend)
 
     return (
         <motion.section id={"certifications"}>
