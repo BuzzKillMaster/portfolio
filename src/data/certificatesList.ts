@@ -193,6 +193,18 @@ const certificatesList: CourseCertificate[] = [
         date: new Date("2023-02-20"),
         credential: "https://www.coursera.org/account/accomplishments/certificate/7YVEHWQJXKBX",
     },
+    {
+        title: "Front-End Developer Capstone ",
+        organization: "Meta",
+        date: new Date("2023-03-05"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/NJGU55B2FP9X",
+    },
+    {
+        title: "Coding Interview Preparation",
+        organization: "Meta",
+        date: new Date("2023-03-07"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/RG3N8Q2ZPACB",
+    },
 ].sort((a, b) => b.date.getTime() - a.date.getTime())
 
 export default certificatesList
