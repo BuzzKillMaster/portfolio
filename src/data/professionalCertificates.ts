@@ -27,7 +27,7 @@ const professionalCertificates: {[key: string]: ProfessionalCertificate} = {
     [ProfessionalCertificates.Frontend]: {
         title: "Meta Front-End Developer",
         category: "Front-End Development",
-        timeline: "September 2022 - Present",
+        timeline: "September 2022 - March 2023",
         description: "HTML, CSS and JavaScript are the basis of my arsenal, with React, Next, Tailwind and much more at my fingertips as well. I have some favourite tools but am more than capable of using whatever tool is needed of me, whether that be Vue, Angular or whatever else is needed.",
         skills: [
             "Creating responsive websites using HTML to structure content, CSS to handle visual style, and JavaScript to develop interactive experiences.",
