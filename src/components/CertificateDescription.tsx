@@ -10,7 +10,10 @@ export default function CertificateDescription(props: {
         <>
             {props.showing &&
                 <motion.div layoutId={"certification"} initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className={"row-span-full col-start-1 col-end-2"}>
-                    <h4 className={"text-xl font-bold"}>{props.certificate.title}</h4>
+                    <div className={"flex items-center justify-between gap-4"}>
+                        <h4 className={"text-xl font-bold"}>{props.certificate.title}</h4>
+                        {props.certificate.source && <a className={"text-sm font-semibold hover:text-emerald-400"} href={props.certificate.source} target={"_blank"} rel={"noreferrer"}>Show certificate</a>}
+                    </div>
                     <p className={"text-sm text-emerald-400 my-4"}>{props.certificate.timeline}</p>
                     <p>{props.certificate.description}</p>
 
