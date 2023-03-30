@@ -33,7 +33,7 @@ export default function Header() {
                         <li key={value} onClick={() => navigateTo(value.toLowerCase())} className={"cursor-pointer hover:text-emerald-400"}>{value}</li>
                     ))}
 
-                    <a href={"/resume.pdf"} target={"_blank"} rel={"noreferrer"}><li className={"px-4 py-2 border-2 rounded cursor-pointer border-emerald-400 text-emerald-400 hover:bg-emerald-400 hover:text-slate-900"}>Resume</li></a>
+                    <a href={"/documents/resume.pdf"} target={"_blank"} rel={"noreferrer"}><li className={"px-4 py-2 border-2 rounded cursor-pointer border-emerald-400 text-emerald-400 hover:bg-emerald-400 hover:text-slate-900"}>Resume</li></a>
                 </ul>
             </nav>
 
@@ -54,7 +54,7 @@ export default function Header() {
                                 <MobileMenuLink key={value} text={value} target={value.toLowerCase()} handleClick={navigateTo}/>
                             ))}
 
-                            <a href={"/resume.pdf"} target={"_blank"} rel={"noreferrer"}><li className={"mt-4 px-4 py-2 border-2 rounded cursor-pointer border-emerald-400 text-emerald-400 hover:bg-emerald-400 hover:text-slate-900"}>Resume</li></a>
+                            <a href={"/documents/resume.pdf"} target={"_blank"} rel={"noreferrer"}><li className={"mt-4 px-4 py-2 border-2 rounded cursor-pointer border-emerald-400 text-emerald-400 hover:bg-emerald-400 hover:text-slate-900"}>Resume</li></a>
                         </ul>
                     </motion.aside>
                 }
