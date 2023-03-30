@@ -62,32 +62,32 @@ const professionalCertificates: {[key: string]: ProfessionalCertificate} = {
             "Publishing, deploying and maintaining iOS apps as well as cross-platform apps using React Native.",
         ]
     },
-    [ProfessionalCertificates.Marketing]: {
-        title: "Meta Social Media Marketing",
-        category: "Social Media Marketing",
-        source: null,
-        timeline: "September 2022 - Present",
-        description: "Marketing campaigns, customer segment analysis, persona creation, you name and I probably know how to do it. I'm trained in using Meta Ads Manager to deliver targeted advertising, regardless of its purpose, as well as creating and interacting with an online following.",
-        skills: [
-            "Establishing an online presence, building a following, and managing social media accounts.",
-            "Developing effective social media posts and creating a strong social media brand presence.",
-            "Creating Facebook and Instagram ad campaigns in Meta Ads Manager that drive business results.",
-            "Learning to evaluate and interpret the results of social posts and advertising campaigns.",
-        ]
-    },
-    [ProfessionalCertificates.Analytics]: {
-        title: "Meta Marketing Analytics",
-        category: "Marketing Analytics",
-        source: null,
-        timeline: "September 2022 - Present",
-        description: "Data drives results and I know how to gather, analyze and visualize data using tools like Pandas and Tableau, while simultaneously using the collected data to drive business, advertising and marketing decisions that result in improved ROAS, ROI and customer satisfaction.",
-        skills: [
-            "Collecting, sorting, evaluating, and visualizing marketing data.",
-            "Summarizing and analyzing data using marketing analytics methods.",
-            "Designing experiments and testing hypotheses to evaluate advertising effectiveness.",
-            "Using Meta Ads Manager to test ad effectiveness and evaluate the results.",
-        ]
-    },
+    // [ProfessionalCertificates.Marketing]: {
+    //     title: "Meta Social Media Marketing",
+    //     category: "Social Media Marketing",
+    //     source: null,
+    //     timeline: "September 2022 - Present",
+    //     description: "Marketing campaigns, customer segment analysis, persona creation, you name and I probably know how to do it. I'm trained in using Meta Ads Manager to deliver targeted advertising, regardless of its purpose, as well as creating and interacting with an online following.",
+    //     skills: [
+    //         "Establishing an online presence, building a following, and managing social media accounts.",
+    //         "Developing effective social media posts and creating a strong social media brand presence.",
+    //         "Creating Facebook and Instagram ad campaigns in Meta Ads Manager that drive business results.",
+    //         "Learning to evaluate and interpret the results of social posts and advertising campaigns.",
+    //     ]
+    // },
+    // [ProfessionalCertificates.Analytics]: {
+    //     title: "Meta Marketing Analytics",
+    //     category: "Marketing Analytics",
+    //     source: null,
+    //     timeline: "September 2022 - Present",
+    //     description: "Data drives results and I know how to gather, analyze and visualize data using tools like Pandas and Tableau, while simultaneously using the collected data to drive business, advertising and marketing decisions that result in improved ROAS, ROI and customer satisfaction.",
+    //     skills: [
+    //         "Collecting, sorting, evaluating, and visualizing marketing data.",
+    //         "Summarizing and analyzing data using marketing analytics methods.",
+    //         "Designing experiments and testing hypotheses to evaluate advertising effectiveness.",
+    //         "Using Meta Ads Manager to test ad effectiveness and evaluate the results.",
+    //     ]
+    // },
     // [ProfessionalCertificates.Upcoming]: {
     //     title: "Upcoming Certificates",
     //     category: "Upcoming Certificates",

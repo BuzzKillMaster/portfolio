@@ -4,8 +4,8 @@ enum ProfessionalCertificates {
     Database,
     Android,
     iOS,
-    Marketing,
-    Analytics,
+    // Marketing,
+    // Analytics,
     // Upcoming
 }
 
