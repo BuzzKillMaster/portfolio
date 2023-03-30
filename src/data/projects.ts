@@ -11,42 +11,42 @@ import {
 const projects: Project[] = [
     {
         title: "IP Address Tracker",
-        description: "Find out where your current IP points, check if your VPN is actually working, or just input some random IP address and see where it takes you on the map - the choice is yours!",
+        description: "Discover the geographic location of your current IP address, verify the functionality of your VPN, or enter a random IP address to visualize its location on the map - the options are limitless!",
         technologies: ["ipapi", "Next.JS", "TailwindCSS", "Leaflet.JS"],
         icon: BsMap,
         target: "https://ip-address-tracker.buzzkill.app"
     },
     {
         title: "Password Generator",
-        description: "Simple implementation of a would-be password generator, enabling you to choose the length and overall complexity of your password, with a strength grading scale that goes from pathetic to godlike.",
+        description: "Effortlessly generate passwords to suit your desired length and complexity with this easy-to-use password generator. The tool includes a strength grading scale that ranges from pathetic to godlike, empowering you to create highly secure passwords with ease.",
         technologies: ["Next.JS", "TailwindCSS"],
         icon: BsFillShieldLockFill,
         target: "https://password-generator.buzzkill.app"
     },
     {
         title: "GitHub User Search",
-        description: "Search for the username of any GitHub user and get a quick overview of who they are and what they do. It has never been easier to stalk your favourite developers online!",
+        description: "Quickly search for any GitHub user by their username and access a short overview of their work and interests. Discover more about your favorite developers online with this user-friendly tool.",
         technologies: ["GitHub API", "Next.JS", "TailwindCSS", "Framer Motion", "Local Storage"],
         icon: BsGithub,
         target: "https://github-user-search.buzzkill.app"
     },
     {
         title: "Markdown Editor",
-        description: "See what you're writing, as you're writing it, using this Markdown editor that was designed to be simple and accessible - leveraging the power of Markdown, without overcomplicating what it was meant to do.",
+        description: "Effortlessly craft your content with this user-friendly Markdown editor, which enables you to visualize your text as you write. The tool was purposefully designed to be straightforward and accessible, allowing you to easily leverage the power of Markdown.",
         technologies: ["Remark.JS", "Next.JS", "TailwindCSS"],
         icon: BsPencilSquare,
         target: "https://markdown-editor.buzzkill.app"
     },
     {
         title: "Tip Calculator",
-        description: "The easiest way to calculate how much you should tip, with the option of a custom tipping percentage and even bill-splitting, in case there's more than one member of your party paying.",
+        description: "Easily calculate your tip amount using our Tip Calculator, which offers customizable tipping percentages and a convenient bill-splitting feature for groups. Avoid the hassle of mental math and ensure accuracy in your tipping.",
         technologies: ["Next.JS", "TailwindCSS"],
         icon: BsCalculator,
         target: "https://tip-calculator.buzzkill.app"
     },
     {
         title: "Advice Generator",
-        description: "Using the Advice Slip API, I created a small service that will fetch a random piece of advice for you. It supports copying a direct link to a particular piece of advice so that you can easily share it with others.",
+        description: "With the Advice Slip API, this tool provides you with a random piece of advice at your fingertips. You can easily share a specific piece of advice by copying its direct link.",
         technologies: ["Advice Slip API", "Next.JS", "TailwindCSS"],
         icon: BsFillPatchCheckFill,
         target: "https://advice-generator.buzzkill.app"
