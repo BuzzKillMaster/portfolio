@@ -205,6 +205,12 @@ const certificatesList: CourseCertificate[] = [
         date: new Date("2023-03-07"),
         credential: "https://www.coursera.org/account/accomplishments/certificate/RG3N8Q2ZPACB",
     },
+    {
+        title: "Database Clients",
+        organization: "Meta",
+        date: new Date("2023-03-29"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/8CKNUEW6RZ96",
+    },
 ].sort((a, b) => b.date.getTime() - a.date.getTime())
 
 export default certificatesList
