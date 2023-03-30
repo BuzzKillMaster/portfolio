@@ -7,11 +7,11 @@ const professionalCertificates: {[key: string]: ProfessionalCertificate} = {
         category: "Front-End Development",
         source: "https://www.coursera.org/account/accomplishments/specialization/certificate/RVRA76493QVX",
         timeline: "September 2022 - March 2023",
-        description: "HTML, CSS and JavaScript are the basis of my arsenal, with React, Next, Tailwind and much more at my fingertips as well. I have some favourite tools but am more than capable of using whatever tool is needed of me, whether that be Vue, Angular or whatever else is needed.",
+        description: "I possess a strong foundation in HTML, CSS, and JavaScript and am proficient in utilizing various frameworks and tools such as React, Next, and Tailwind. Additionally, I am well-equipped to adapt to the needs of any project, demonstrating proficiency in other frameworks such as Vue and Angular when required.",
         skills: [
-            "Creating responsive websites using HTML to structure content, CSS to handle visual style, and JavaScript to develop interactive experiences.",
-            "Using React in relation to Javascript libraries and frameworks.",
-            "Using the Bootstrap CSS Framework to create webpages and worked with GitHub repositories and version control.",
+            "Proficiently create responsive websites utilizing HTML for effective content structuring, CSS for visually engaging style, and JavaScript for the development of interactive user experiences.",
+            "Demonstrating expertise in utilizing React in conjunction with various JavaScript libraries and frameworks to create efficient and robust web applications.",
+            "Experienced in leveraging the Bootstrap CSS Framework to effectively design webpages, with a strong understanding of version control and collaboration tools such as GitHub repositories.",
         ]
     },
     [ProfessionalCertificates.Backend]: {
@@ -19,10 +19,10 @@ const professionalCertificates: {[key: string]: ProfessionalCertificate} = {
         category: "Back-End Development",
         source: null,
         timeline: "September 2022 - Present",
-        description: "Not satisfied with just being able to build the front-end, I also specialize in planning, implementing and maintaining back-end systems and automation using tools like Django to create APIs or full-stack applications.",
+        description: "In addition to front-end development, I specialize in designing, implementing, and maintaining efficient back-end systems and automations using robust tools such as Django. My expertise extends to creating high-performing APIs and full-stack applications.",
         skills: [
-            "Programming systems including Python, Linux commands, Git, SQL, Version Control, Cloud Hosting, APIs, JSON, XML and more.",
-            "Developing basic programming skills and confidence in using programming skills to solve problems.",
+            "Proficient in various programming systems, including Python, Linux commands, Git, SQL, Version Control, Cloud Hosting, APIs, JSON, XML, and other relevant technologies.",
+            "Demonstrating a solid foundation in programming skills and a strong ability to apply these skills effectively to solve complex problems.",
         ]
     },
     [ProfessionalCertificates.Database]: {
@@ -30,12 +30,12 @@ const professionalCertificates: {[key: string]: ProfessionalCertificate} = {
         category: "Database Engineering",
         source: null,
         timeline: "September 2022 - Present",
-        description: "I'm not limited by the ORM of a given framework and understand not only how a database works, but also how to directly interact with it, enabling me to create complex queries. I also know how to optimize and normalize data storage, ensuring data integrity.",
+        description: "I possess a strong understanding of database systems, beyond the limitations of a specific ORM or framework. My expertise extends to creating complex queries and optimizing data storage, ensuring data integrity and security.",
         skills: [
-            "Gaining familiarity with SQL syntax and how it’s used to interact with databases.",
-            "Creating databases from scratch and learned how to add, manage and optimize databases.",
-            "Writing database driven applications in Python to connect clients to MySQL databases.",
-            "Developing a working knowledge of advanced data modeling concepts.",
+            "Proficiently utilize SQL syntax to interact with databases and gain familiarity with relevant database systems.",
+            "Capable of creating databases from scratch and effectively managing and optimizing them to ensure optimal performance.",
+            "Proficiently develop Python-based applications that connect clients to MySQL databases through effective utilization of database-driven programming techniques.",
+            "Possess a strong working knowledge of advanced data modeling concepts to ensure efficient and effective database design.",
         ]
     },
     [ProfessionalCertificates.Android]: {
@@ -43,11 +43,11 @@ const professionalCertificates: {[key: string]: ProfessionalCertificate} = {
         category: "Android Development",
         source: null,
         timeline: "September 2022 - Present",
-        description: "Capable of developing native mobile applications for Android using Kotlin and Jetpack Compose, as well as cross-platform applications using React Native, I can quickly develop complex functionality and custom implementations, ensuring that I am never limited by the the work done by others.",
+        description: "I possess the capability to proficiently develop native mobile applications for Android utilizing Kotlin and Jetpack Compose, as well as cross-platform applications using React Native. My expertise enables me to rapidly develop complex functionalities and custom implementations, ensuring that I am not limited by the work done by others.",
         skills: [
-            "Programming in Kotlin along with best practices for design and fundamentals of creating user interfaces with Jetpack Compose.",
-            "Building native Android applications using Android Studio and managing the lifecycle of a mobile application.",
-            "Creating cross-platform mobile applications using React Native."
+            "Proficiently programming in Kotlin, adhering to best practices for design, and effectively utilizing the fundamentals of user interface creation with Jetpack Compose.",
+            "Demonstrating the ability to build native Android applications using Android Studio, managing the application's lifecycle, and ensuring optimal performance and stability.",
+            "Proficiently creating cross-platform mobile applications using React Native, employing the best practices and techniques to ensure efficient and effective development.",
         ]
     },
     [ProfessionalCertificates.iOS]: {
@@ -55,11 +55,11 @@ const professionalCertificates: {[key: string]: ProfessionalCertificate} = {
         category: "iOS Development",
         source: null,
         timeline: "September 2022 - Present",
-        description: "Native applications using Swift and Swift UI or cross-platform application using React Native, it doesn't matter as I can do both. My knowledge of the Swift programming language empowers me to create complex applications without having to worry about limitations imposed by existing frameworks.",
+        description: "I possess the capability to proficiently develop native applications for iOS using Swift and Swift UI, as well as cross-platform applications using React Native. My expertise in Swift programming language enables me to create complex applications without worrying about limitations imposed by existing frameworks.",
         skills: [
-            "Programming fundamentals, how to create a user interface (UI) and best practices for designing the UI using Swift UI.",
-            "Creating applications for iOS systems and managing their lifecycles.",
-            "Publishing, deploying and maintaining iOS apps as well as cross-platform apps using React Native.",
+            "Possessing a strong foundation in programming fundamentals, effectively creating user interfaces (UI) utilizing Swift UI, and adhering to best practices in UI design.",
+            "Demonstrating the ability to create robust applications for iOS systems, proficiently managing their lifecycles to ensure optimal performance and stability.",
+            "Proficiently publishing, deploying, and maintaining iOS applications, as well as cross-platform applications utilizing React Native, to ensure efficient and effective deployment and maintenance of mobile applications.",
         ]
     },
     // [ProfessionalCertificates.Marketing]: {
