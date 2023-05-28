@@ -16,7 +16,8 @@ import LeftHandSideBonusInformation from "@/components/LeftHandSideBonusInformat
 import RightHandSideBonusInformation from "@/components/RightHandSideBonusInformation";
 
 const lexend = Lexend({
-    subsets: ['latin']
+    subsets: ['latin'],
+    display: "swap"
 })
 
 export default function Home() {
