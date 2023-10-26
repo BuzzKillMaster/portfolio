@@ -4,9 +4,7 @@ enum ProfessionalCertificates {
     Database,
     Android,
     iOS,
-    // Marketing,
-    // Analytics,
-    // Upcoming
+    React,
 }
 
 export default ProfessionalCertificates
