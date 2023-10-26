@@ -9,8 +9,8 @@ const technologies = {
     "TailwindCSS": "https://tailwindcss.com/",
     "Framer Motion": "https://www.framer.com/motion/",
     "Figma": "https://www.figma.com/",
-    "MySQL": "https://www.mysql.com/",
-    "Django": "https://www.djangoproject.com/",
+    "PostgreSQL": "https://www.postgresql.org",
+    "Expo": "https://expo.dev",
     "FastAPI": "https://fastapi.tiangolo.com/",
 }
 
