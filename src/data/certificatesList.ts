@@ -211,6 +211,90 @@ const certificatesList: CourseCertificate[] = [
         date: new Date("2023-03-29"),
         credential: "https://www.coursera.org/account/accomplishments/certificate/8CKNUEW6RZ96",
     },
+    {
+        title: "Working with Data in iOS",
+        organization: "Meta",
+        date: new Date("2023-06-22"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/T73ZCCBATGHD",
+    },
+    {
+        title: "Mobile Development and JavaScript",
+        organization: "Meta",
+        date: new  Date("2023-05-03"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/6WDUFA6N66DW",
+    },
+    {
+        title: "React Native",
+        organization: "Meta",
+        date: new Date("2023-05-17"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/G5PYQJ54LJY3",
+    },
+    {
+        title: "Working with data in Android",
+        organization: "Meta",
+        date: new Date("2023-05-16"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/Q3GK9GQW6EVG",
+    },
+    {
+        title: "Database Engineer Capstone",
+        organization: "Meta",
+        date: new Date("2023-05-12"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/4UBG6B3T8HZY",
+    },
+    {
+        title: "Working with Data",
+        organization: "Meta",
+        date: new Date("2023-05-18"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/6NMSVZZ7RUC4",
+    },
+    {
+        title: "Capstone (React App)",
+        organization: "Meta",
+        date: new Date("2023-07-01"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/38TZCRLYZRJG",
+    },
+    {
+        title: "iOS App Capstone",
+        organization: "Meta",
+        date: new Date("2023-06-26"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/BNQ7LFG5T8R8",
+    },
+    {
+        title: "Android App Capstone",
+        organization: "Meta",
+        date: new Date("2023-06-01"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/TKKGB292XSKW",
+    },
+    {
+        title: "Introduction to Mobile Development",
+        organization: "Meta",
+        date: new Date("2023-05-02"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/NWWGSJDXQL5T",
+    },
+    {
+        title: "Back-End Developer Capstone",
+        organization: "Meta",
+        date: new Date("2023-04-28"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/RZVYKSSZ6HE4",
+    },
+    {
+        title: "Advanced Data Modeling",
+        organization: "Meta",
+        date: new Date("2023-04-20"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/6PJEUWP5WUT3",
+    },
+    {
+        title: "APIs",
+        organization: "Meta",
+        date: new Date("2023-04-23"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/W3B9AYA9E2QR",
+    },
+    {
+        title: "The Full Stack",
+        organization: "Meta",
+        date: new Date("2023-04-25"),
+        credential: "https://www.coursera.org/account/accomplishments/certificate/6E692B2WXCXC",
+    }
 ].sort((a, b) => b.date.getTime() - a.date.getTime())
 
 export default certificatesList
