@@ -9,7 +9,7 @@ export default function LandingSection() {
             <h2 className={"text-4xl font-bold"}>I create websites and mobile applications.</h2>
 
             <p className={"mt-8 lg:w-1/2 mb-12"}>Which I do with quite the enthusiasm, and also a tiny bit of
-                absurdity. In a world of highly skilled individuals, I stand out based on my extroverted and
+                absurdity. In a world of highly skilled competitors, I stand out based on my extroverted and
                 fun-loving personality, not just my capabilities.</p>
 
             <p onClick={() => scrollToView("about")}
