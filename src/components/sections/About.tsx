@@ -50,9 +50,9 @@ export default function AboutSection() {
                         <li><span className={"text-emerald-400 mr-2"}>b.</span> <i>&quot;He is some kind of tech wizard.&quot;</i></li>
                     </ul>
 
-                    <p className={"mb-8"}>I&apos;m capable of designing and developing applications for web and mobile, as well as structuring and building out both back-end systems and databases.</p>
+                    <p className={"mb-8"}>I&apos;m a <a href={"https://www.credly.com/badges/3588eceb-e225-40f7-87ac-35ae0264cba6/public_url"} target={"_blank"} className={"text-emerald-400 hover:underline"} rel={"noreferrer"}>Generalist Software Engineer</a> capable of designing and developing applications for web and mobile, as well as structuring and building out back-end systems and databases.</p>
 
-                    <p className={"mb-8"}>Furthermore, I know how to do social media marketing, marketing analytics and data visualization, and I&apos;m always looking to expand my domain of knowledge.</p>
+                    <p className={"mb-8"}>Furthermore, I have know-how within the fields of social media marketing, marketing analytics and data visualization, and I&apos;m always looking to expand my domain of knowledge.</p>
 
                     <p className={"mb-8"}>Some of my favourite tools and technologies include:</p>
 
