@@ -1,19 +1,19 @@
 import React, {useState} from "react";
 import {Lexend} from '@next/font/google'
 
-import Header from "@/components/Header";
+import Header from "@/components/structure/Header";
 import FeaturedProjectsSection from "@/components/sections/FeaturedProjects";
 import ContactSection from "@/components/sections/Contact";
-import Footer from "@/components/Footer";
+import Footer from "@/components/structure/Footer";
 import BonusProjectsSection from "@/components/sections/BonusProjects";
 import QualificationsSection from "@/components/sections/Qualifications";
 import LandingSection from "@/components/sections/Landing";
 import AboutSection from "@/components/sections/About";
 
 import {AnimatePresence, LayoutGroup} from "framer-motion";
-import CertificatesListOverlay from "@/components/CertificationsOverlay";
-import LeftHandSideBonusInformation from "@/components/LeftHandSideBonusInformation";
-import RightHandSideBonusInformation from "@/components/RightHandSideBonusInformation";
+import CertificatesListOverlay from "@/components/certifications/CertificationsOverlay";
+import LeftHandSideBonusInformation from "@/components/structure/LeftHandSideBonusInformation";
+import RightHandSideBonusInformation from "@/components/structure/RightHandSideBonusInformation";
 
 const lexend = Lexend({
     subsets: ['latin'],

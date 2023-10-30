@@ -2,7 +2,7 @@ import {AnimatePresence, motion} from "framer-motion";
 import {BsArrowRight, BsList} from "react-icons/bs";
 import React, {useState} from "react";
 import scrollToView from "@/utilities/scrollToView";
-import MobileMenuLink from "@/components/MobileMenuLink";
+import MobileMenuLink from "@/components/structure/MobileMenuLink";
 
 const sectionNames = [
     "Home",

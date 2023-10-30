@@ -3,8 +3,8 @@ import {AnimatePresence, motion} from "framer-motion";
 import React, {useState} from "react";
 import ProfessionalCertificates from "@/enums/ProfessionalCertificates";
 import professionalCertificates from "@/data/professionalCertificates";
-import CertificateListItem from "@/components/CertificateListItem";
-import CertificateDescription from "@/components/CertificateDescription";
+import CertificateListItem from "@/components/certifications/CertificateListItem";
+import CertificateDescription from "@/components/certifications/CertificateDescription";
 
 export default function QualificationsSection() {
     const [selectedCertificate, setSelectedCertificate] = useState(ProfessionalCertificates.Frontend)
